@@ -29,9 +29,11 @@
 
 			<section class="container" id="main">
 				
-					<div class="panel operational" data-l10n-id="systems-operational">
-						All Systems operational.
+					
+					<div class="panel investigating">
+						<span data-l10n-id="Investigating">Investigating</span> <span data-l10n-id="on">on</span> Design, Website.
 					</div>
+					
 				
 
 				<h4 data-l10n-id="systems">Systems</h4>
@@ -50,7 +52,7 @@
 					</li>
 					
 					<li>
-						Design <span class="status operational" data-l10n-id="operational">operational</span>
+						Design <span class="status investigating" data-l10n-id="investigating">investigating</span>
 					</li>
 					
 					<li>
@@ -66,14 +68,33 @@
 					</li>
 					
 					<li>
-						Website <span class="status operational" data-l10n-id="operational">operational</span>
+						Website <span class="status investigating" data-l10n-id="investigating">investigating</span>
 					</li>
 					
 				</ul>
 
 				<h4 data-l10n-id="incidents">Incidents</h4>
 				
-					<em data-l10n-id="no.incidents">No incidents in the past 90 days.</em>
+					
+					<div class="incident">
+						<span class="date moment">2017-06-26 20:29:56 UTC</span>
+
+						
+							<span class="label investigating float-right" data-l10n-id="investigating">investigating</span>
+						
+						
+							<span class="label system float-right">Design</span>
+						
+							<span class="label system float-right">Website</span>
+						
+						<hr/>
+
+						<span class="title">Main site fails to maintain responsiveness on small screens</span>
+						<p>Main website landing page doesn't fit entirely on small screens (e.g. phones). Currently investigating on this problem and will update you regarding fixes on this issue.</p>
+
+						
+					</div>
+					
 				
 			</section>
 
