@@ -1,6 +1,6 @@
 {
-    "footer": "Status page hosted by GitHub, generated with <a href='https://github.com/jayfk/statuspage'>jayfk/statuspage</a>",
-    "logo": "https://raw.githubusercontent.com/jayfk/statuspage/master/template/logo.png",
+    "footer": "&copy; 2017 Marc Reyes | Powered by <a href='https://pages.github.com'>GitHub pages</a> | <strong><a href='https://github.com/jayfk/statuspage'>Statuspage</a></strong> is an open-source project by <strong>@jayfk</strong>",
+    "logo": "https://marcreyes.ph/images/logo-ico.png",
     "title": "Status &mdash; Marc Reyes",
     "favicon": "https://marcreyes.ph/favicon.ico"
 }
