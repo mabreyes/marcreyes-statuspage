@@ -1,4 +1,4 @@
-# [Marc Reyes Status Page](https://marcreyes.ph)
+# [Marc Reyes Status Page](https://status.marcreyes.ph)
 
 ### Status page for marcreyes.ph and all related systems
 
