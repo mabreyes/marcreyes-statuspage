@@ -29,16 +29,18 @@
 
 			<section class="container" id="main">
 				
-					<div class="panel operational" data-l10n-id="systems-operational">
-						All Systems operational.
+					
+					<div class="panel investigating">
+						<span data-l10n-id="Investigating">Investigating</span> <span data-l10n-id="on">on</span> API, Website.
 					</div>
+					
 				
 
 				<h4 data-l10n-id="systems">Systems</h4>
 				<ul class="systems">
 					
 					<li>
-						API <span class="status operational" data-l10n-id="operational">operational</span>
+						API <span class="status investigating" data-l10n-id="investigating">investigating</span>
 					</li>
 					
 					<li>
@@ -54,13 +56,32 @@
 					</li>
 					
 					<li>
-						Website <span class="status operational" data-l10n-id="operational">operational</span>
+						Website <span class="status investigating" data-l10n-id="investigating">investigating</span>
 					</li>
 					
 				</ul>
 
 				<h4 data-l10n-id="incidents">Incidents</h4>
 				
+					
+					<div class="incident">
+						<span class="date moment">2017-07-02 06:38:23 UTC</span>
+
+						
+							<span class="label investigating float-right" data-l10n-id="investigating">investigating</span>
+						
+						
+							<span class="label system float-right">API</span>
+						
+							<span class="label system float-right">Website</span>
+						
+						<hr/>
+
+						<span class="title">Service worker homepage fails to update on reload</span>
+						<p>The homepage service worker fails to update on reload so once the page has been cached, the page remains on that state and doesn't update if there are changes. Currently fixing this issue. </p>
+
+						
+					</div>
 					
 					<div class="incident">
 						<span class="date moment">2017-06-26 20:29:56 UTC</span>
